@@ -1,12 +1,12 @@
-## ✨ Hello Galaxy!
+## ✨
 
-This is a Gatsby sandbox app based on the Gatsby default starter. Gatsby is a static site generation framework built on the React library. More detailed info about Gatsby is located below.
+Hello Galaxy! This is a Gatsby sandbox app based on the Gatsby default starter. Gatsby is a static site generation framework built on the React library. More detailed info about Gatsby is located below.
 
 Here I take my first dive into SASS and parallax within the Gatsby envrionment. 
 
 Original SASS is taken from this [CodePen from Saransh Sinha](https://codepen.io/saransh/pen/BKJun?editors=1100) 
 
-* Google Orbitron font and adapations for React/Gatsby have been added
+Google Orbitron font and adapations for React/Gatsby have been added
 
 Instructions to recreate are as follows:
 
