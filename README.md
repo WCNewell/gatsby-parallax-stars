@@ -2,9 +2,9 @@
 
 Hello Galaxy! This is a Gatsby sandbox app based on the Gatsby default starter. Gatsby is a static site generation framework built on the React library. More detailed info about Gatsby is located below.
 
-[Deployed to Netlify with GitHub build hook](https://clarknewell-gatsby-galaxy.netlify.app/)
+[Deployed to Netlify with GitHub CI/CD build hook](https://clarknewell-gatsby-galaxy.netlify.app/)
 
-Here I take my first dive into SASS and parallax within the Gatsby envrionment. 
+Here I take my first dive into SASS and parallax within the Gatsby/React envrionment. 
 
 Original SASS is taken from this [CodePen from Saransh Sinha](https://codepen.io/saransh/pen/BKJun?editors=1100) 
 
