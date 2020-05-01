@@ -1,21 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+// import "../components/layout.sass"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hello Galaxy.</h1>
-    <p>Stars Theme with Sass Parallax.</p>
-    <p>Now go build something great!</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Home" />    
   </Layout>
 )
 
 export default IndexPage
+
+// style={{
+//         display: 'flex',
+//         justifyContent: 'center',
+//         marginTop: '8em',
+//         maxWidth: 960,
+//         padding: `0 1.0875rem 1.45rem`,
+//       }}

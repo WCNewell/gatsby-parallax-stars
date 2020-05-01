@@ -1,51 +1,32 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import "./layout.css"
+import { Link } from "gatsby"
+import ClarkIcon from "./assets/astronautClark.inline.svg"
+// import "./layout.css"
+import "./layout.sass"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const Layout = () => {
 
   return (
     <>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '8em',
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}
+      <div className='stars'></div>
+      <div className='stars2'></div>
+      <div className='stars3'></div>
+      <div className="title">
+        <div className="titlechild">
+          <h1>Hello Galaxy.</h1>
+          <ClarkIcon className="logoicon"/>
+          <p>Stars Theme with Sass Parallax.</p>
+          <p>Now go build something great!</p>
+          <Link to="/page-2/">Go to page 2</Link>
           <footer>
-            © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()} Logo by Clark Newell, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
-        </main>
+        </div>
       </div>
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
