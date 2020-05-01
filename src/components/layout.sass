@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap')
+
+$font-stack: Orbitron, sans-serif
+
 @function multiple-box-shadow ($n) 
   $value: '#{random(2000)}px #{random(2000)}px #FFF'
   @for $i from 2 through $n
@@ -5,9 +9,9 @@
 
   @return unquote($value)
 
-$shadows-small:  multiple-box-shadow(1000)
-$shadows-medium: multiple-box-shadow(400)
-$shadows-big:    multiple-box-shadow(200)
+$shadows-small:  multiple-box-shadow(700)
+$shadows-medium: multiple-box-shadow(200)
+$shadows-big:    multiple-box-shadow(100)
 
 html
   height: 100%
@@ -63,16 +67,17 @@ html
     box-shadow: $shadows-big
 
 .title
-  top: 50%
+  position: absolute
+  top: 20%
   left: 0
   right: 0
   
   color: #FFF
   text-align: center
-  font-family: 'lato',sans-serif
   font-weight: 300
-  font-size: 50px
-  letter-spacing: 10px
+  font-size: 30px
+  font-family: $font-stack
+  letter-spacing: 5px
   
   margin-top: -60px
   padding-left: 10px
@@ -82,19 +87,13 @@ html
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
 
-  .logoicon
+  .logo
     fill: white
     height: 150px
     widthL: 150px
-    
 
-  
 @keyframes animStar
-from	
-  transform: translateY(0px)
-to		
-  transform: translateY(-2000px)
-  
-  
-    position: absolute
-      
+  from	
+    transform: translateY(0px)
+  to		
+    transform: translateY(-2000px)

@@ -1,3 +1,33 @@
+## ✨ Hello Galaxy!
+
+This is a Gatsby sandbox app based on the Gatsby default starter. Gatsby is a static site generation framework built on the React library. More detailed info about Gatsby is located below.
+
+Here I take my first dive into SASS and parallax within the Gatsby envrionment. 
+
+Original SASS is taken from this [CodePen from Saransh Sinha](https://codepen.io/saransh/pen/BKJun?editors=1100) 
+
+* Google Orbitron font and adapations for React/Gatsby have been added
+
+Instructions to recreate are as follows:
+
+1. Fork this repo. Then, in the terminal run the following prompt from the command line
+
+``` shell
+    npm install
+```
+
+1. Install the Gatsby CLI tool. In the terminal run the following prompt from the command line
+
+``` shell
+    npm i -g gatsby-cli
+```
+
+1. Spin up a live production environment. In the terminal run the following prompt from the command line
+
+``` shell
+    gatsby develop
+```
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
