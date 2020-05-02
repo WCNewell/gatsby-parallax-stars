@@ -1,5 +1,5 @@
 import React from "react"
-import ClarkIcon from "./assets/astronautClark.inline.svg"
+import Icon from "./assets/astronautClark.inline.svg"
 import "./layout.sass"
 
 const Layout = () => {
@@ -12,7 +12,7 @@ const Layout = () => {
       <div className="title">
         <div className="titlechild">
           <h1>Hello Galaxy!</h1>
-          <ClarkIcon className="logo"/>
+          <Icon className="logo"/>
           <p>Stars Theme with Sass Parallax.</p>
           <p>Now go build something great!</p>
           <footer>

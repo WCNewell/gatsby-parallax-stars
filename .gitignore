@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# proprietary or paid for icons
+.svg
+
 # Mac files
 .DS_Store
 
