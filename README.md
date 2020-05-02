@@ -30,9 +30,6 @@ Instructions to recreate are as follows:
     gatsby develop
 ```
 
-Note: The Icon in layout.js will need to repaced with any svg of your choice in the /assets/ folder.
-
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
