@@ -59,7 +59,7 @@ typings/
 public
 
 # proprietary or paid for icons
-.svg
+*.svg
 
 # Mac files
 .DS_Store
