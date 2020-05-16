@@ -1,5 +1,5 @@
 import React from "react"
-import Icon from "./assets/OG-Astronaut.inline.svg"
+import Icon from "./assets/OG-AstronautOne.inline.svg"
 import "./layout.sass"
 
 const Layout = () => {
